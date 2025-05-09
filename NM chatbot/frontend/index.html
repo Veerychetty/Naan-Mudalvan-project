@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Neon Customer Support Chatbot</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"/>
+</head>
+<body>
+  <div class="background-animation"></div>
+  
+  <header class="main-header">
+    <div class="header-content">
+      <h1><i class="fas fa-bolt neon-icon"></i> NeonBot</h1>
+      <nav class="main-nav">
+        <ul>
+          <li class="wel">Welcome <span class="ex">!</span></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="main-content">
+    <div class="chat-container">
+      <div class="chat-header">
+        <h2>Customer Support</h2>
+        <div class="bot-status">
+          <span class="status-dot"></span>
+          <span>Online</span>
+        </div>
+      </div>
+      <div class="chat-messages" id="chat-messages">
+        <div class="message bot-message">
+          <div class="avatar"><i class="fas fa-robot"></i></div>
+          <div class="message-content">
+            <p>Hello! I'm your customer support assistant. How can I help you today?</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="default-options" id="default-options"></div>
+
+      <div class="chat-input">
+        <input type="text" id="user-input" placeholder="Type your message here..." autocomplete="off"/>
+        <button id="send-button"><i class="fas fa-paper-plane"></i></button>
+      </div>
+    </div>
+  </main>
+
+  <footer class="main-footer">
+    <div class="footer-content">
+      <div class="footer-section">
+        <h3>Team Members</h3>
+        <ul>
+          <li>K.Veery Chetty</li>
+          <li>Marshal</li>
+          <li>Pradeesh</li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h3>Contact Us</h3>
+        <p>Email: veerychetty123@gmail.com</p>
+        <p>Phone: 7305898078</p>
+      </div>
+      <div class="footer-section">
+        <h3>Follow Us</h3>
+        <div class="social-icons">
+          <a href="#"><i class="fab fa-facebook"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2025 Company Name. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
